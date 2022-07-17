@@ -1,0 +1,56 @@
+
+
+nav {
+  background-color: $PrimaryBackground;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 100vw;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  overflow: hidden;
+  .print-header {
+    padding-left: 10px;
+    font-size: $PrintHeaderFontSize;
+  }
+
+  .print-header:hover {
+    color: $FunctionColor;
+    .string {
+      color: $StringColor;
+    }
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    // justify-content: flex-end;
+    li {
+      margin-left: 20px;
+      .github {
+        margin-left: -10px;
+        filter: opacity(80%);
+        color: $FunctionColor;
+      }
+
+      .linkedin {
+        filter: opacity(80%);
+        color: $FunctionColor;
+      }
+    }
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
+.github:hover {
+  color: $ActiveFunctionColor;
+}
+
+.linkedin:hover {
+  color: $ActiveFunctionColor;
+}

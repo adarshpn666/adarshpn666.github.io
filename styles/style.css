@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Helvetica, sans-serif, Arial;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  background-color: #282c34;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.string {
+  color: #e4bf7a;
+}
+
+.function {
+  color: #60aded;
+}
+
+.function:hover {
+  color: #9772fb;
+}
+.function:hover .string {
+  color: #fc9867;
+}
+
+nav {
+  background-color: #282c34;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 100vw;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  overflow: hidden;
+}
+nav .print-header {
+  padding-left: 10px;
+  font-size: 1.25rem;
+}
+nav .print-header:hover {
+  color: #60aded;
+}
+nav .print-header:hover .string {
+  color: #e4bf7a;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  margin-left: 20px;
+}
+nav ul li .github {
+  margin-left: -10px;
+  filter: opacity(80%);
+  color: #60aded;
+}
+nav ul li .linkedin {
+  filter: opacity(80%);
+  color: #60aded;
+}
+
+li {
+  list-style-type: none;
+}
+
+.github:hover {
+  color: #9772fb;
+}
+
+.linkedin:hover {
+  color: #9772fb;
+}
+
+.root-wrapper {
+  padding-top: 50px;
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-rows: 60vh 40vh;
+}
+
+.text {
+  display: grid;
+  padding: 20px;
+  margin: 0;
+  justify-self: center;
+  font-weight: 500;
+}
+
+.canvas {
+  padding: 20px;
+  align-self: center;
+  justify-self: center;
+  margin: 0;
+}
+
+.intro {
+  font-size: 3vw;
+}
+
+.greeting {
+  font-size: 3vw;
+  color: #f8d163;
+}
+
+.name {
+  font-size: 4vw;
+  color: #aa9cf1;
+}
+
+.down-arrow {
+  color: aqua;
+}
+
+.chip {
+  justify-self: center;
+}
+
+.chip-design {
+  color: #a9dc76;
+}
+
+.about-wrapper {
+  display: flex;
+  padding-top: 100px;
+  background-color: #282c34;
+  height: 100vh;
+  width: 100vw;
+}
+.about-wrapper .intro-content {
+  display: grid;
+  width: 50vw;
+  padding: 30px;
+  background-color: #1e2128;
+}
+.about-wrapper .skill-wrapper {
+  width: 50vw;
+  background-color: #1e2128;
+}
+
+.project-wrapper {
+  display: flex;
+  padding-top: 100px;
+  background-color: green;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contact-wrapper {
+  display: flex;
+  padding-top: 100px;
+  background-color: rgb(191, 24, 206);
+  width: 100vw;
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */

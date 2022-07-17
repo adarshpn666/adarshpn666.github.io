@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $PrimaryFontFamily, Helvetica, sans-serif, Arial;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  background-color: $PrimaryBackground;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.string {
+  color: $StringColor;
+}
+
+.function {
+  color: $FunctionColor;
+}
+
+.function:hover {
+  color: $ActiveFunctionColor;
+  .string {
+    color: $ActiveStringColor;
+  }
+}

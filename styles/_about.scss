@@ -1,0 +1,19 @@
+.about-wrapper {
+  display: flex;
+  padding-top: 100px;
+  background-color: $PrimaryBackground;
+  height: 100vh;
+  width: 100vw;
+
+  .intro-content {
+    display: grid;
+    width: 50vw;
+    padding: 30px;
+    background-color: $IntroContentBackground;
+  }
+
+  .skill-wrapper {
+    width: 50vw;
+    background-color: $IntroContentBackground;
+  }
+}

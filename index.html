@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adarsh P Nair</title>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <!-- fontawesome -->
+    <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="assets/fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="assets/fontawesome/css/solid.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <!-- editable changes according to use page shown -->
+        <span class="print-header function">
+          .print(<span class="string">"welcome"</span>)
+        </span>
+
+        <ul class="nav-items">
+          <li class="item">
+            <a href="#id-root" class="function">.root()</a>
+          </li>
+          <li class="item">
+            <a href="#id-project" class="function"
+              >.goTo(<span class="string">"projects"</span>)</a
+            >
+          </li>
+          <li class="item">
+            <a href="#id-about" class="function"
+              >.goTo(<span class="string">"about"</span>)</a
+            >
+          </li>
+          <li class="item">
+            <a href="#id-contact" class="function"
+              >.geTo(<span class="string">"contact"</span>)</a
+            >
+          </li>
+          <li class="item">
+            <a href="#">
+              <i class="fa-brands fa-linkedin fa-xl linkedin"></i>
+            </a>
+          </li>
+          <li class="item">
+            <a href="#">
+              <i class="fa-brands fa-github fa-xl github"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- ROOT CONTENT -->
+      <div class="root-wrapper" id="id-root">
+        <div class="canvas">
+          <img src="./assets/cat-gray.gif" />
+        </div>
+        <div class="text">
+          <div>
+            <span class="greeting">
+              <!-- <span class="terminal">
+                <i class="fa-solid fa-terminal fa-sm"></i>
+              </span> -->
+               Hi,</span
+            ><br />
+            <span class="intro">
+              <!-- <span class="terminal">
+                <i class="fa-solid fa-terminal fa-sm"></i>
+              </span> -->
+              I am
+              <span class="name"> Adarsh P Nair</span>
+            </span>
+          </div>
+          <div class="chip">
+            <i class="fa-solid fa-microchip fa-2xl chip-design"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- INTRO CONTENT -->
+      <div class="about-wrapper" id="id-about">
+        <!-- <span class="image"><img src="" alt="" /></span> -->
+        <div class="intro-content">
+          <h1>Let me Introduce mySelf</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+
+        <div class="skill-wrapper">
+          <h1>Skills</h1>
+          <ul class="skill-items">
+            <li class="skill">skill 1</li>
+            <li class="skill">skill 2</li>
+            <li class="skill">skill 3</li>
+            <li class="skill">skill 4</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- PROJECT CONTENT -->
+      <div class="project-wrapper" id="id-project">
+        <h1>Projects</h1>
+        <ul class="project-list">
+          <li class="project">Projects 1</li>
+          <li class="project">Projects 2</li>
+          <li class="project">Projects 3</li>
+          <li class="project">Projects 4</li>
+          <li class="project">Projects 5</li>
+        </ul>
+      </div>
+
+      <!-- CONTACT CONTENT -->
+      <div class="contact-wrapper" id="id-contact">
+        <h1>Contact Me</h1>
+        <form action="" class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+          <label for="email">Email</label>
+          <input type="text" id="email" />
+          <label for="message">Message</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <input type="submit" value="submit" />
+        </form>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
