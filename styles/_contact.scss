@@ -1,7 +1,40 @@
 .contact-wrapper {
-  display: flex;
-  padding-top: 100px;
-  background-color:$PrimaryBackground;
-  width: 100vw;
+  display: grid;
+  padding: 100px 30px 100px;
+
+  width: 100%;
   height: 100vh;
+  justify-content: center;
+
+  .contact-form {
+    display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+
+    input,
+    textarea {
+      color: black;
+      background-color: white;
+      font-size: 20px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+
+    .button-wrapper {
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    #submit-button {
+      width: 200px;
+      height: 50px;
+      background-color: $FunctionColor;
+      border: none;
+    }
+
+    #submit-button:hover {
+      background-color: $ActiveFunctionColor;
+    }
+  }
 }

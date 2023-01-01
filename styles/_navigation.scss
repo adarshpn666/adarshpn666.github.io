@@ -4,9 +4,10 @@ nav {
   background-color: $PrimaryBackground;
   padding-top: 10px;
   padding-left: 20px;
-  width: 100vw;
+  width: 100%;
   padding-right: 100px;
   display: flex;
+  flex-wrap: wrap; 
   flex-direction: row;
   justify-content: space-between;
   position: fixed;
