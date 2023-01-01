@@ -1,0 +1,20 @@
+.skill-wrapper {
+  display: grid;
+  padding-top: 100px;
+  background-color: $PrimaryBackground;
+  width: 100vw;
+  height: 100vh;
+}
+
+.skill-content {
+  display: flex;
+  width: 100vw;
+
+  .skill-items {
+    width: 50vw;
+  }
+
+  .radar-graph {
+    width: 50vw;
+  }
+}

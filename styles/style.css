@@ -149,23 +149,49 @@ li {
   padding: 30px;
   background-color: #1e2128;
 }
-.about-wrapper .skill-wrapper {
+.about-wrapper .experience-wrapper {
+  display: grid;
+  padding: 30px;
   width: 50vw;
-  background-color: #1e2128;
 }
 
 .project-wrapper {
-  display: flex;
-  padding-top: 100px;
-  background-color: green;
+  display: grid;
+  padding: 100px 30px 100px;
+  background-color: #282c34;
   width: 100vw;
   height: 100vh;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
 
 .contact-wrapper {
   display: flex;
   padding-top: 100px;
-  background-color: rgb(191, 24, 206);
+  background-color: #282c34;
   width: 100vw;
   height: 100vh;
+}
+
+.skill-wrapper {
+  display: grid;
+  padding-top: 100px;
+  background-color: #282c34;
+  width: 100vw;
+  height: 100vh;
+}
+
+.skill-content {
+  display: flex;
+  width: 100vw;
+}
+.skill-content .skill-items {
+  width: 50vw;
+}
+.skill-content .radar-graph {
+  width: 50vw;
 }/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,13 @@
 .project-wrapper {
-  display: flex;
-  padding-top: 100px;
-  background-color: green;
+  display: grid;
+  padding: 100px 30px 100px;
+  background-color: $PrimaryBackground;
   width: 100vw;
   height: 100vh;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
 }

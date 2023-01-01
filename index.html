@@ -27,13 +27,18 @@
             <a href="#id-root" class="function">.root()</a>
           </li>
           <li class="item">
-            <a href="#id-project" class="function"
-              >.goTo(<span class="string">"projects"</span>)</a
+            <a href="#id-about" class="function"
+              >.goTo(<span class="string">"about"</span>)</a
             >
           </li>
           <li class="item">
-            <a href="#id-about" class="function"
-              >.goTo(<span class="string">"about"</span>)</a
+            <a href="#id-skill" class="function"
+              >.goTo(<span class="string">"skills"</span>)</a
+            >
+          </li>
+          <li class="item">
+            <a href="#id-project" class="function"
+              >.goTo(<span class="string">"projects"</span>)</a
             >
           </li>
           <li class="item">
@@ -57,23 +62,19 @@
       <!-- ROOT CONTENT -->
       <div class="root-wrapper" id="id-root">
         <div class="canvas">
-          <img src="./assets/cat-gray.gif" />
+          <img src="./assets/cat-gray.gif" alt="developer image" />
         </div>
         <div class="text">
-          <div>
+          <div class="">
             <span class="greeting">
               <!-- <span class="terminal">
                 <i class="fa-solid fa-terminal fa-sm"></i>
               </span> -->
-               Hi,</span
-            ><br />
-            <span class="intro">
-              <!-- <span class="terminal">
-                <i class="fa-solid fa-terminal fa-sm"></i>
-              </span> -->
-              I am
-              <span class="name"> Adarsh P Nair</span>
-            </span>
+              Hi,</span
+            >
+            <div class="intro">
+              <span>I am </span><span class="name" id="name-typewriter"></span>
+            </div>
           </div>
           <div class="chip">
             <i class="fa-solid fa-microchip fa-2xl chip-design"></i>
@@ -87,39 +88,91 @@
         <div class="intro-content">
           <h1>Let me Introduce mySelf</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            Hi.guys I am Adarsh, a coffee lover who enjoys to code for fun. I am
+            currently working as Salesforce intern at Tryzens in the field of
+            Salesforce Core. I am recent graduate in Bachelor's in field of
+            Computer Science. Passed out in 2022 with passion and knowledge of
+            new technologies and would really love to explore upcoming new
+            inovations. Experience in Java, C++, python and Web development
+            (html, css, and javascript) and had build few awesome projects you
+            can check out below. Explored the surface of web 3.0 tried solidity
+            and blockchain. New me is trying to explore and know more about
+            linux and open source.
           </p>
         </div>
 
-        <div class="skill-wrapper">
-          <h1>Skills</h1>
-          <ul class="skill-items">
-            <li class="skill">skill 1</li>
-            <li class="skill">skill 2</li>
-            <li class="skill">skill 3</li>
-            <li class="skill">skill 4</li>
+        <!-- EXPERIENCE CONTENT -->
+        <div class="experience-wrapper">
+          <h1>Experience</h1>
+          <ul class="experience-list">
+            <li class="experience">
+              <div>
+                <span>Salesforce Developer Intern</span> at <span>Tryzens </span
+                ><span>(Aug 2022 - Present)</span>
+              </div>
+              <p>
+                currently I am intern as Saleforce Core developer. Main job is
+                to under cilent requirements and developing a solution for sales
+                and Customer relationship management system using Salesforce
+                Core features. Handling Cases and automate the routing the Cases
+                to Agents to handle. Creating features like automate case
+                creation from email using email subject.
+              </p>
+            </li>
           </ul>
+        </div>
+      </div>
+
+      <!-- SkILLS CONTENT  -->
+      <div class="skill-wrapper" id="id-skill">
+        <h1>Skills</h1>
+        <div class="skill-content">
+          <ul class="skill-items">
+            <li class="skill">Java</li>
+            <li class="skill">C++</li>
+            <li class="skill">Apex</li>
+            <li class="skill">Javascript</li>
+            <li class="skill">salesforce core</li>
+            <li class="skill">python</li>
+          </ul>
+          <div class="radar-graph">radar-graph</div>
         </div>
       </div>
 
       <!-- PROJECT CONTENT -->
       <div class="project-wrapper" id="id-project">
         <h1>Projects</h1>
-        <ul class="project-list">
-          <li class="project">Projects 1</li>
-          <li class="project">Projects 2</li>
-          <li class="project">Projects 3</li>
-          <li class="project">Projects 4</li>
-          <li class="project">Projects 5</li>
-        </ul>
+        <div class="project-list">
+          <div class="project">
+            <div>learn cpp</div>
+            <p>
+              This is my personal notes of c. Notes along with code and
+              examples.
+            </p>
+            <div class="in-progress">in progress</div>
+            <div class="goto-source-code">goto("get source code")</div>
+          </div>
+          <div class="project">
+            <div>personal portfolio</div>
+            <p>
+              source code of my personal profolio is available. If anyone wants
+              take it as reference they can use if as they want 😁.
+            </p>
+            <div class="will-be-updated">will be updated in future</div>
+            <div class="goto-source-code">goto("get source code")</div>
+          </div>
+          <div class="project">
+            <div>Nearbyjewelery</div>
+            <p>
+              It is mobile app built by using help of react-native. A smiple
+              online jewelery shop app allows you to purchase jeweleries online.
+              backend here is on google firebase for data storage and
+              authentications.
+            </p>
+            <div class="in-progress">in progress</div>
+            <div class="goto-source-code">goto("get source code")</div>
+          </div>
+        </div>
       </div>
 
       <!-- CONTACT CONTENT -->

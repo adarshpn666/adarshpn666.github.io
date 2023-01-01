@@ -12,8 +12,9 @@
     background-color: $IntroContentBackground;
   }
 
-  .skill-wrapper {
+  .experience-wrapper {
+    display: grid;
+    padding: 30px;
     width: 50vw;
-    background-color: $IntroContentBackground;
   }
 }
