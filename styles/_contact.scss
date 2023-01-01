@@ -29,12 +29,13 @@
     #submit-button {
       width: 200px;
       height: 50px;
-      background-color: $FunctionColor;
+      background-color: $SuccessColor;
       border: none;
+      color: #153462;
     }
 
     #submit-button:hover {
-      background-color: $ActiveFunctionColor;
+      background-color: $SuccessHoverColor;
     }
   }
 }

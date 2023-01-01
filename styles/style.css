@@ -198,11 +198,12 @@ li {
 .contact-wrapper .contact-form #submit-button {
   width: 200px;
   height: 50px;
-  background-color: #60aded;
+  background-color: #68B984;
   border: none;
+  color: #153462;
 }
 .contact-wrapper .contact-form #submit-button:hover {
-  background-color: #9772fb;
+  background-color: #7ad89b;
 }
 
 .skill-wrapper {
