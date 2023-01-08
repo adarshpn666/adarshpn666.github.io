@@ -6,16 +6,25 @@
   font-family: "Poppins", Helvetica, sans-serif, Arial;
   color: #fff;
   background-color: #282c34;
-}
-
-html {
-  scroll-behavior: smooth;
+  font-size: 20px;
 }
 
 .wrapper {
   background-color: #282c34;
   max-width: 100%;
   height: 100vh;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+.content .content-data {
+  scroll-snap-align: end;
 }
 
 a {
@@ -35,6 +44,10 @@ a {
 }
 .function:hover .string {
   color: #fc9867;
+}
+
+h1 {
+  font-size: 30px;
 }
 
 nav {
@@ -115,6 +128,9 @@ li {
 .intro {
   font-size: 3vw;
 }
+.intro .iam {
+  font-size: 36px;
+}
 
 .greeting {
   font-size: 3vw;
@@ -138,22 +154,31 @@ li {
   color: #a9dc76;
 }
 
-.about-wrapper {
-  display: flex;
+.detail-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding-top: 100px;
   height: 100vh;
   width: 100%;
-  flex-wrap: wrap;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
 }
-.about-wrapper .intro-content {
-  display: grid;
-  width: 50vw;
+.detail-wrapper .detail-content {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: 100%;
   padding: 30px;
+  justify-content: center;
+  gap: 50px;
 }
-.about-wrapper .experience-wrapper {
-  display: grid;
-  padding: 30px;
-  width: 50vw;
+.detail-wrapper .detail-content .about-image {
+  padding: 50px 0px;
+}
+.detail-wrapper img {
+  width: 500px;
+  height: 500px;
 }
 
 .project-wrapper {

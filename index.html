@@ -32,6 +32,11 @@
             >
           </li>
           <li class="item">
+            <a href="#id-experience" class="function"
+              >.goTo(<span class="string">"experience"</span>)</a
+            >
+          </li>
+          <li class="item">
             <a href="#id-skill" class="function"
               >.goTo(<span class="string">"skills"</span>)</a
             >
@@ -59,8 +64,9 @@
         </ul>
       </nav>
 
+      <div class="content">
       <!-- ROOT CONTENT -->
-      <div class="root-wrapper" id="id-root">
+      <div class="root-wrapper content-data" id="id-root">
         <div class="canvas">
           <img src="./assets/image/Asset 1.png" alt="developer image" />
         </div>
@@ -73,7 +79,7 @@
               Hi,</span
             >
             <div class="intro">
-              <span>I am </span><span class="name" id="name-typewriter"></span>
+              <span class="iam">I am </span><span class="name" id="name-typewriter"></span>
             </div>
           </div>
           <div class="chip">
@@ -83,13 +89,12 @@
       </div>
 
       <!-- INTRO CONTENT -->
-      <div class="about-wrapper" id="id-about">
-        <!-- <span class="image"><img src="" alt="" /></span> -->
-        <div class="intro-content">
+      <div class="detail-wrapper content-data" id="id-about">
+        <div class="detail-content">
           <h1>Let me Introduce mySelf</h1>
-          <p>
-            Hi.guys I am Adarsh, a coffee lover who enjoys to code for fun. I am
-            currently working as Salesforce intern at Tryzens in the field of
+          <p class="intro-paragraph">
+            Hi guys, I am Adarsh, a coffee lover who enjoys to code for fun. I
+            am currently working as Salesforce intern at Tryzens in the field of
             Salesforce Core. I am recent graduate in Bachelor's in field of
             Computer Science. Passed out in 2022 with passion and knowledge of
             new technologies and would really love to explore upcoming new
@@ -100,18 +105,33 @@
             linux and open source.
           </p>
         </div>
-
-        <!-- EXPERIENCE CONTENT -->
-        <div class="experience-wrapper">
+        <div class="about-image">
+          <img
+            src="./assets/image/headphone_programming_guy.png"
+            alt="programming guy picture"
+          />
+        </div>
+      </div>
+      <!-- EXPERIENCE CONTENT -->
+      <div class="detail-wrapper content-data" id="id-experience">
+        <div class="about-image">
+          <img
+            src="./assets/image/green_programming_guy.png"
+            alt="programming guy picture"
+          />
+        </div>
+        <div class="detail-content">
           <h1>Experience</h1>
+
           <ul class="experience-list">
             <li class="experience">
+              <div></div>
               <div>
                 <span>Salesforce Developer Intern</span> at <span>Tryzens </span
                 ><span>(Aug 2022 - Present)</span>
               </div>
               <p>
-                currently I am intern as Saleforce Core developer. Main job is
+                Currently I am intern as Saleforce Core developer. Main job is
                 to under cilent requirements and developing a solution for sales
                 and Customer relationship management system using Salesforce
                 Core features. Handling Cases and automate the routing the Cases
@@ -124,7 +144,7 @@
       </div>
 
       <!-- SkILLS CONTENT  -->
-      <div class="skill-wrapper" id="id-skill">
+      <div class="skill-wrapper content-data" id="id-skill">
         <h1>Skills</h1>
         <div class="skill-content">
           <ul class="skill-items">
@@ -140,7 +160,7 @@
       </div>
 
       <!-- PROJECT CONTENT -->
-      <div class="project-wrapper" id="id-project">
+      <div class="project-wrapper content-data" id="id-project">
         <h1>Projects</h1>
         <div class="project-list">
           <div class="project">
@@ -176,7 +196,7 @@
       </div>
 
       <!-- CONTACT CONTENT -->
-      <div class="contact-wrapper" id="id-contact">
+      <div class="contact-wrapper content-data" id="id-contact">
         <h1>Contact Me</h1>
         <form action="" class="contact-form">
           <label for="name">Name</label>
@@ -190,6 +210,7 @@
           </div>
         </form>
       </div>
+    </div>
     </div>
     <script src="js/script.js"></script>
   </body>
